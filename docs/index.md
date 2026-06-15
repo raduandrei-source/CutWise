@@ -211,10 +211,10 @@ CutWise is distributed as a single file. When installed without a licence key, i
 The licence key has the format `CWTW-XXXX-XXXX-XXXX-XXXX`. It is validated locally using a cryptographic signature — no internet connection is required for activation or for continued use.
 
 **To activate Pro:**
-1. Purchase a key at [gumroad.com/cutwise](https://gumroad.com/YOUR_LINK)
-2. Open Blender → N-panel → CutWise → **Settings**
-3. Click **Paste Key** (if the key is in your clipboard) or **Enter / Change Key**
-4. The status line changes to "✓ CutWise Pro active"
+1. Purchase a key at https://cutwise.gumroad.com/l/yiqahd
+3. Open Blender → N-panel → CutWise → **Settings**
+4. Click **Paste Key** (if the key is in your clipboard) or **Enter / Change Key**
+5. The status line changes to "✓ CutWise Pro active"
 
 A single key is licensed for personal use on computers you own. Keys do not expire and remain valid across updates.
 
