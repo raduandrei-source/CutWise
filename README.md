@@ -155,7 +155,7 @@ To purchase a Pro key: [CutWise Pro on Gumroad](https://gumroad.com/YOUR_LINK)
 
 ## Links
 
-- 🛒 [CutWise Pro on Gumroad](https://gumroad.com/YOUR_LINK)
-- 🎬 [Video demo on YouTube](https://youtube.com/YOUR_LINK)
+- 🛒 [CutWise Pro on Gumroad](https://cutwise.gumroad.com/l/yiqahd)
+- 🎬 [Video demo on YouTube](https://youtu.be/flGE_SqiUrQ)
 - 🐛 [Report a bug](../../issues)
 - 💬 [Discussions](../../discussions)
