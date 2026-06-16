@@ -1,2 +1,2 @@
-# CutWise-CORE
+# CutWise
 Timber Optimization for Blender
