@@ -15,15 +15,20 @@ CutWise is a Blender addon for timber structure projects. Assign part IDs to you
 | Materials & Stock Sizes | ✓ | ✓ |
 | Generate Part IDs | ✓ | ✓ |
 | Detailed & Consolidated BOM export | ✓ | ✓ |
-| Viewport overlay (IDs, dimensions) | ✓ | ✓ |
-| CSV import/export | ✓ | ✓ |
-| Multi-language UI | ✓ | ✓ |
-| **Shopping List + Cut Optimizer** | ✓ | ✓ |
-| **Cut settings** (rip, cross-cut, cut warnings) | — | ✓ |
+| Shopping List generation | ✓ | ✓ |
+| Kerf, Stock Bonus, Tolerance settings | ✓ | ✓ |
+| Viewport overlay (IDs, names, dims, count) | ✓ | ✓ |
+| View presets (All / IDs / Dims / Off) | ✓ | ✓ |
+| Convert GN Array → Legacy | ✓ | ✓ |
+| Diagnose Active Object | ✓ | ✓ |
+| Lists CSV import/export | ✓ | ✓ |
+| Multi-language UI (14 languages) | ✓ | ✓ |
+| **Rip Cut, Cross-Cut, Long Rip settings** | — | ✓ |
+| **Width Variation** | — | ✓ |
 | **Multi-Board Splicing** | — | ✓ |
-| **Wood species presets** | — | ✓ |
-| **Advanced overlay** (shadow, outline, presets) | — | ✓ |
-| **Auto-Assign from Import** | — | ✓ |
+| **Wood species density presets** | — | ✓ |
+| **Overlay: color, shadow, outline** | — | ✓ |
+| **Import CSV stock dimensions** | — | ✓ |
 
 👉 **[Get CutWise Pro on Gumroad →](https://cutwise.gumroad.com/l/yiqahd)**
 
