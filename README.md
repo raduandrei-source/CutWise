@@ -111,6 +111,12 @@ cutvisor/
 
 ## Changelog
 
+### v1.0.1
+- New: Volume Filter (Parts tab) — live volume readout, Min/Max range select/exclude, "Select Same Volume" with adjustable tolerance
+- New: dedicated JARCH Import tab, separated from Parts; tab bar now spans two rows for readability
+- Improved: L×W×T dimension measurement reworked to use face area instead of vertex positions — fixes incorrect dimensions on bevelled, rotated, or inconsistently-modelled pieces
+- Improved: Shift-click to extend selection in the Shopping List's Unmatched section, with highlighting for currently-selected rows
+
 ### v1.0.0
 - Initial release
 - Core: Materials, Stock Sizes, Part IDs, BOM export, viewport overlay, Shopping List with FFD cut optimizer
