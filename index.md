@@ -1,3 +1,44 @@
+<style>
+#cv-toc {
+  position: fixed;
+  top: 80px;
+  right: 24px;
+  width: 230px;
+  max-height: 78vh;
+  overflow-y: auto;
+  font-size: 13px;
+  line-height: 1.5;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 14px;
+  z-index: 100;
+}
+#cv-toc strong { display: block; margin-bottom: 8px; }
+#cv-toc a { display: block; color: #0969da; text-decoration: none; padding: 2px 0; }
+#cv-toc a:hover { text-decoration: underline; }
+#cv-toc .toc-h3 { padding-left: 14px; font-size: 12px; color: #57606a; }
+@media (max-width: 1150px) { #cv-toc { display: none; } }
+</style>
+
+<nav id="cv-toc"><strong>On this page</strong></nav>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var toc = document.getElementById("cv-toc");
+  var headings = document.querySelectorAll("h2, h3");
+  headings.forEach(function (h) {
+    if (!h.id) {
+      h.id = h.textContent.trim().toLowerCase().replace(/[^\w]+/g, "-");
+    }
+    var a = document.createElement("a");
+    a.href = "#" + h.id;
+    a.textContent = h.textContent;
+    if (h.tagName === "H3") a.className = "toc-h3";
+    toc.appendChild(a);
+  });
+});
+</script>
 # **CutVisor — More Than a Plugin**
 
 ## Why CutVisor exists
