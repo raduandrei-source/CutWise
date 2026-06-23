@@ -1,7 +1,5 @@
 <style>
-
 #cv-toc {
-
   position: fixed;
   top: 80px;
   right: 24px;
@@ -15,15 +13,18 @@
   border-radius: 6px;
   padding: 14px;
   z-index: 100;
-  @media (min-width: 1151px) {
-  .markdown-body { padding-right: 280px; }
-}
 }
 #cv-toc strong { display: block; margin-bottom: 8px; }
 #cv-toc a { display: block; color: #0969da; text-decoration: none; padding: 2px 0; }
 #cv-toc a:hover { text-decoration: underline; }
 #cv-toc .toc-h3 { padding-left: 14px; font-size: 12px; color: #57606a; }
-@media (max-width: 1150px) { #cv-toc { display: none; } }
+
+@media (max-width: 1150px) {
+  #cv-toc { display: none; }
+}
+@media (min-width: 1151px) {
+  .markdown-body { padding-right: 280px; }
+}
 </style>
 
 <nav id="cv-toc"><strong>On this page</strong></nav>
