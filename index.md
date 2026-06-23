@@ -1,8 +1,7 @@
 <style>
 
 #cv-toc {
-    @media (min-width: 1151px)
-  .markdown-body { padding-right: 280px; }
+
   position: fixed;
   top: 80px;
   right: 24px;
@@ -16,6 +15,9 @@
   border-radius: 6px;
   padding: 14px;
   z-index: 100;
+  @media (min-width: 1151px) {
+  .markdown-body { padding-right: 280px; }
+}
 }
 #cv-toc strong { display: block; margin-bottom: 8px; }
 #cv-toc a { display: block; color: #0969da; text-decoration: none; padding: 2px 0; }
