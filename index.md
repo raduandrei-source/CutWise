@@ -1,8 +1,9 @@
 <style>
-  @media (min-width: 1151px) {
+
+#cv-toc {
+    @media (min-width: 1151px) {
   .markdown-body { padding-right: 280px; }
 }
-#cv-toc {
   position: fixed;
   top: 80px;
   right: 24px;
